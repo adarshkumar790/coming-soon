@@ -7,7 +7,7 @@ export default function Home() {
 
       {/* Load external script */}
       <Script
-        src="https://cdorgapi.b-cdn.net/widgets/score.js"
+        src="https://cdorgapi.b-cdn.net/widgets/vmatchlist.js"
         strategy="afterInteractive" // Load after page is interactive
       />
 
