@@ -7,7 +7,7 @@ export default function Home() {
 
       {/* Load external script */}
       <Script
-        src="https://cdorgapi.b-cdn.net/widgets/vmatchlist.js"
+        src="https://cdorgapi.b-cdn.net/widgets/matchlist.js"
         strategy="afterInteractive" // Load after page is interactive
       />
 
@@ -16,3 +16,6 @@ export default function Home() {
     </>
   );
 }
+
+{/* <script src="https://cdorgapi.b-cdn.net/widgets/matchlist.js"></script> */}
+
