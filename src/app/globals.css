@@ -27,13 +27,13 @@ body {
 
 #score-widget {
   background-color: #000;
-  color: #fff;
+  color: #ee04ab;
   font-size: 14px;
   padding: 1rem;
   border-radius: 8px;
 }
 
 #score-widget * {
-  color: #fff !important;
+  color: #ee0a0a !important;
   font-size: 14px !important;
 }
