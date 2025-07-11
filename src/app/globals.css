@@ -25,15 +25,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#score-widget {
-  background-color: #000;
-  color: #ee04ab;
-  font-size: 14px;
+/* app/globals.css */
+.cdorg-matches {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 0.875rem; /* text-sm */
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
-#score-widget * {
-  color: #ee0a0a !important;
-  font-size: 14px !important;
+/* Score specific override (optional) */
+.cdorg-matches span[style*="#ef9930"] {
+  color: #facc15 !important; /* Tailwind amber-400 */
 }

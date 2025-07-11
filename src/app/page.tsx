@@ -3,17 +3,16 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <>
-      <h1 className="text-xl font-bold">My Page with Score Widget</h1>
+      <h1 className="text-xl font-bold mb-4">My Page with Score Widget</h1>
 
-      {/* Customized Widget Container */}
+      {/* Widget container with class used in global CSS */}
       <div
         id="score-widget"
-        className="cdorg-matches text-white bg-black text-sm p-4 rounded-md"
+        className="cdorg-matches"
         data-type="international"
         data-theme="light"
-      ></div>
+      />
 
-      {/* Load the widget script */}
       <Script
         src="https://cdorgapi.b-cdn.net/widgets/matchlist.js"
         strategy="afterInteractive"
