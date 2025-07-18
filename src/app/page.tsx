@@ -10,7 +10,7 @@ export default function Home() {
         id="score-widget"
         className="cdorg-matches"
         data-type="international"
-        data-theme="light"
+        data-theme="dark"
       />
 
       <Script
